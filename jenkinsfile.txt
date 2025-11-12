@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages {
-        stage ('master') {
+        stage ('main') {
             steps {
                 sh echo"This is master branch"
                 stages {
@@ -11,7 +11,7 @@ pipeline {
                             stages {
                                 stage ('hotfix')
                                 steps {
-                                    sh echo"This is hotfix"
+                                    sh echo"This hey is hotfix..."
                                 }
                             }
                         }
