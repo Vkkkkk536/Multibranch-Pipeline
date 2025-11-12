@@ -11,7 +11,7 @@ pipeline {
                             stages {
                                 stage ('hotfix')
                                 steps {
-                                    sh echo"This hey is hotfix..."
+                                    sh echo"Thnen ejfis hey is hotfix..."
                                 }
                             }
                         }
